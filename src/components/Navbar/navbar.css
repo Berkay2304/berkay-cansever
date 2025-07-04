@@ -8,7 +8,9 @@
     padding: 0 32px;
     z-index: 9999;
 }
-
+.nav-link {
+  cursor: pointer;
+}
 .logo {
   height: 48px;
 }

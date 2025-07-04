@@ -12,9 +12,9 @@ export default function Intro() {
             </div>
             <hr />
             <div className="icons">
-                <SiMaildotru className="mail-icon" />
-                <FaGithub className="github-icon"/>
-                <FaLinkedin className="linkedin-icon"/>
+                <a href="mailto:berkaycansever23@gmail.com" target="_blank"><SiMaildotru className="mail-icon" /></a>
+                <a href="https://github.com/Berkay2304" target="_blank"><FaGithub className="github-icon"/></a>
+                <a href="https://www.linkedin.com/in/berkay-cansever-aba033280/" target="_blank"><FaLinkedin className="linkedin-icon"/></a>
             </div>
         </div>
         <div className='right-div'>

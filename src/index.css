@@ -36,9 +36,7 @@ h2 {
   font-size: 20px;
 }
 
-*:hover {
-  cursor: pointer;
-}
+
 
 /* Responsive Typography */
 @media (max-width: 768px) {
