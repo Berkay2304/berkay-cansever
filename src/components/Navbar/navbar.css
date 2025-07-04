@@ -1,0 +1,139 @@
+.nav-bar{
+    position: relative;
+    height: 10vh;
+    background: var(--DarkBlue);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px;
+    z-index: 9999;
+}
+
+.logo {
+  height: 48px;
+}
+
+/* -------- Menü listesi -------- */
+.nav-list {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-link:hover { color: #9a9a9a; }
+
+.active-link {
+  border-bottom: 2px solid var(--White);
+  font-weight: 600;
+}
+
+/* -------- Contact butonu -------- */
+.contact-link {
+  background: var(--White);
+  color: var(--DarkBlue);
+  border-radius: 32px;
+  padding: 6px 24px;
+}
+.contact-link:hover { background: #9a9a9a; color: var(--Black);}
+
+/* -------- Hamburger -------- */
+.hamburger {
+  display: none;
+  font-size: 32px;
+  color: var(--White);
+  cursor: pointer;
+}
+
+/* Tablet Responsive */
+@media (max-width: 992px) {
+  .nav-bar {
+    padding: 0 20px;
+  }
+  
+  .hamburger { display: block; }
+  
+  /*Kapalı durum*/
+  .nav-list {
+    position: fixed;          /* <-- absolute yerine fixed */
+    top: 76px;                /* navbar yüksekliği kadar aşağıda başla */
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background: var(--DarkBlue);
+    transform: translateY(-200%);   /* ekran dışına tamamen çek */
+    transition: transform .3s ease;
+    padding: 24px 32px;
+    gap: 16px;
+    z-index: 9998;            /* navbar (9999) altında, ama içerikten yukarıda */
+  }
+
+  /*Açık durum*/
+  .nav-list.open {
+    transform: translateY(0);
+  }
+
+  .nav-link  { font-size: 20px; text-align: center; }
+  .contact-link { width: 120px; margin: 0 auto; }
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .nav-bar {
+    padding: 0 15px;
+    height: 8vh;
+  }
+  
+  .logo {
+    height: 36px;
+  }
+  
+  .hamburger {
+    font-size: 28px;
+  }
+  
+  .nav-list {
+    top: 8vh;
+    padding: 20px 15px;
+    gap: 12px;
+  }
+  
+  .nav-link {
+    font-size: 18px;
+  }
+  
+  .contact-link {
+    width: 100px;
+    padding: 4px 16px;
+  }
+}
+
+/* Small Mobile Responsive */
+@media (max-width: 480px) {
+  .nav-bar {
+    padding: 0 10px;
+  }
+  
+  .logo {
+    height: 32px;
+  }
+  
+  .hamburger {
+    font-size: 24px;
+  }
+  
+  .nav-list {
+    padding: 15px 10px;
+    gap: 10px;
+  }
+  
+  .nav-link {
+    font-size: 16px;
+  }
+  
+  .contact-link {
+    width: 90px;
+    padding: 3px 12px;
+    font-size: 14px;
+  }
+}
