@@ -6,6 +6,7 @@
   --DarkBlue: #13203C;
   --White: #F1F1F1;
   --Black: #272727;
+  --FormText: rgba(19,32,60,0.5);
 }
 
 /* 3. Sıfırlama ve temel stiller */
@@ -25,6 +26,8 @@ body {
   font-family: 'Baloo 2', cursive;
   line-height: 1.6;
   overflow-x: hidden;
+  font-weight: 500;
+  background-color: var(--White);
 }
 
 h1 {
@@ -36,7 +39,10 @@ h2 {
   font-size: 20px;
 }
 
-
+button {
+  font-family: 'Baloo 2', cursive;
+  font-size: 20px;
+}
 
 /* Responsive Typography */
 @media (max-width: 768px) {

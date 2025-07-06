@@ -1,0 +1,16 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+    height: 120px;
+    background-color: var(--DarkBlue);
+}
+
+footer p {
+    color: var(--White);
+}
+
+footer a {
+    margin-top: 24px;
+}

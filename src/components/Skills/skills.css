@@ -1,0 +1,41 @@
+.skills .heading {
+    margin-top: 120px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skills h1,p {
+    color: var(--DarkBlue);
+}
+
+.skills hr {
+    width: 240px;
+    height: 4px;
+    background-color: var(--DarkBlue);
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: var(--White);
+    gap: 48px;
+}
+
+.prim-skills {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 128px;
+}
+.other-skills-container h1 {
+    margin-left: -112px;
+}
+.other-skills {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    gap: 128px;
+}

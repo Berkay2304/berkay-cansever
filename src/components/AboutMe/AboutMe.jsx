@@ -1,38 +1,55 @@
 import React from 'react';
-import './AboutMe.css';
 
 export default function AboutMe() {
   return (
-    <section id="about" className="about-section">
-      <div className="container">
-        <h2 className="section-title">About Me</h2>
-        <div className="about-content">
-          <div className="about-text">
-            <p>
-              I am a passionate Full Stack Web Developer with expertise in modern web technologies. 
-              I love creating beautiful, functional, and user-friendly applications that solve real-world problems.
-            </p>
-            <p>
-              With a strong foundation in both frontend and backend development, I enjoy working with 
-              React, Node.js, and various other technologies to build comprehensive web solutions.
-            </p>
-            <div className="about-stats">
-              <div className="stat-item">
-                <h3>2+</h3>
-                <p>Years Experience</p>
-              </div>
-              <div className="stat-item">
-                <h3>20+</h3>
-                <p>Projects Completed</p>
-              </div>
-              <div className="stat-item">
-                <h3>15+</h3>
-                <p>Happy Clients</p>
-              </div>
-            </div>
+    <div className='about'>
+      <div className='top'>
+        <div className='heading'>
+          <hr />
+          <h1>ABOUT ME</h1>
+          <hr style={{marginTop:"-4px"}}/>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien 
+          fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. 
+          Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. 
+          Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. 
+          Pellentesque commodo lacus at sodales sodales</p>
+          <br />
+        <p>Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, 
+          mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet 
+          augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. </p>
+      </div>
+      <div>
+          <button>MORE</button>
+          <div className='sep'> 
+            <hr />
+            <span></span>
+            <hr />
           </div>
+      </div>
+      <div className='bottom'>
+        <div className='design box'>
+          <h1>Design</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna.</p>
+        </div>
+        <div className='develop box'>
+          <h1>Developing</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna.</p>
+        </div>
+        <div className='maintenance box'>
+          <h1>Maintenance</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna.</p>
         </div>
       </div>
-    </section>
+        <div className='sep'> 
+            <hr />
+            <span></span>
+            <hr />
+        </div>
+    </div>
   );
 }

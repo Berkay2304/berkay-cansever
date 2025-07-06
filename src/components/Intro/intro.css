@@ -34,7 +34,7 @@
     min-width: 200px;
 }
 
-hr {
+.about hr {
     margin-top: 10px;
     width: 100%;
     background-color: var(--DarkBlue);

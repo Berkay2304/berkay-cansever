@@ -1,0 +1,70 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--White);
+}
+
+.contact h1, p {
+    color: var(--DarkBlue);
+}
+
+.contact .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    margin-top: 64px;
+}
+.heading hr {
+    width: 100%;
+    height: 4px;
+    background-color: var(--DarkBlue);
+}
+
+.contact p {
+    margin-top: 80px;
+    width: 350px;
+}
+
+.contact .sep hr {
+    width: 120px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px;
+    gap: 64px;
+}
+
+.contact-form input {
+    font-family: 'Baloo 2', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--FormText);
+    border: none;
+    background: none;
+    border-bottom: 4px solid var(--FormText);
+}
+
+.contact-form .messageBox {
+    padding-bottom: 120px;
+}
+
+.contact-form .submit {
+    width: 120px;
+    border: none;
+    border-left: 4px solid var(--DarkBlue);
+    border-right: 4px solid var(--DarkBlue);
+    color: var(--DarkBlue);
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.contact-form input:focus {
+    border: none;
+    border-bottom: 4px solid var(--DarkBlue);
+    color: var(--DarkBlue);
+}
