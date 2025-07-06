@@ -16,7 +16,7 @@
     width: 240px;
     margin-top: 64px;
 }
-.heading hr {
+.contact .heading hr {
     width: 100%;
     height: 4px;
     background-color: var(--DarkBlue);
@@ -67,4 +67,52 @@
     border: none;
     border-bottom: 4px solid var(--DarkBlue);
     color: var(--DarkBlue);
+}
+
+@media (max-width: 768px) {
+  .contact .heading {
+    width: 90vw;
+    margin-top: 32px;
+  }
+  .contact p {
+    width: 90vw;
+    margin-top: 40px;
+    font-size: 15px;
+  }
+  .contact-form {
+    gap: 32px;
+    margin-top: 32px;
+    width: 90vw;
+  }
+  .contact-form input {
+    font-size: 20px;
+  }
+  .contact-form .submit {
+    width: 90px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact .heading {
+    width: 98vw;
+    margin-top: 16px;
+  }
+  .contact p {
+    width: 98vw;
+    margin-top: 20px;
+    font-size: 13px;
+  }
+  .contact-form {
+    gap: 16px;
+    margin-top: 16px;
+    width: 98vw;
+  }
+  .contact-form input {
+    font-size: 16px;
+  }
+  .contact-form .submit {
+    width: 70px;
+    font-size: 13px;
+  }
 }

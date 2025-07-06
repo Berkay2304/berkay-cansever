@@ -11,7 +11,7 @@ export default function Portfolio() {
       </div>
       <div className='samples-container'>
         <div>
-          <a href="#"><img src={sample} alt="Sample Web Site" /></a>
+          <a href="https://blog-app-eight-ashen.vercel.app/" target='_blank' style={{display: 'inline'}}><img src={sample} alt="Sample Web Site" /></a>
         </div>
         <div>
           <a href="#"><img src={sample} alt="Sample Web Site" /></a>

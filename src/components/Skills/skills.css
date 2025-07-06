@@ -39,3 +39,50 @@
     grid-template-rows: auto;
     gap: 128px;
 }
+
+@media (max-width: 768px) {
+  .skills {
+    gap: 24px;
+    padding: 0 8px;
+  }
+  .skills .heading {
+    margin-top: 60px;
+    margin-bottom: 16px;
+  }
+  .prim-skills {
+    grid-template-columns: auto auto;
+    gap: 32px;
+  }
+  .other-skills {
+    grid-template-columns: auto auto;
+    gap: 32px;
+  }
+  .skills h1 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills {
+    gap: 12px;
+    padding: 0 4px;
+  }
+  .skills .heading {
+    margin-top: 32px;
+    margin-bottom: 8px;
+  }
+  .prim-skills {
+    grid-template-columns: auto;
+    gap: 16px;
+  }
+  .other-skills {
+    grid-template-columns: auto;
+    gap: 16px;
+  }
+  .skills h1 {
+    font-size: 18px;
+  }
+  .skills p {
+    font-size: 14px;
+  }
+}
