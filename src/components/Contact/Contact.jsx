@@ -34,8 +34,7 @@ export default function Contact() {
             <hr />
         </div>
         <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Ut et massa mi. Aliquam in hendrerit urna.</p>
+            <p>If you're interested in working together on a project or need a custom website, feel free to contact me using the form below.</p>
         </div>
         <div className='sep'>
             <hr />

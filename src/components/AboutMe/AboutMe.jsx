@@ -9,16 +9,13 @@ export default function AboutMe() {
           <h1>ABOUT ME</h1>
           <hr style={{marginTop:"-4px"}}/>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien 
-          fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. 
-          Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. 
-          Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. 
-          Pellentesque commodo lacus at sodales sodales</p>
+        <p>Hi, I'm Berkay. I'm a second-year Computer Engineering student. 
+          I constantly improve myself by learning new things in various fields. 
+          I enjoy turning what I learn into real-world projects, 
+          which helps me gain experience and build my portfolio. 
+          Lately, I've been focusing on full-stack web development and started building my own websites. 
+          I'm currently working with both frontend and backend technologies.</p>
           <br />
-        <p>Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, 
-          mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet 
-          augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. </p>
       </div>
       <div>
           <button>MORE</button>
@@ -31,18 +28,15 @@ export default function AboutMe() {
       <div className='bottom'>
         <div className='design box'>
           <h1>Design</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna.</p>
+          <p>I create clean and user-friendly designs that combine aesthetics with functionality.</p>
         </div>
         <div className='develop box'>
           <h1>Developing</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna.</p>
+          <p>I develop modern and responsive web applications using up-to-date technologies.</p>
         </div>
         <div className='maintenance box'>
           <h1>Maintenance</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna.</p>
+          <p>I ensure the long-term performance and security of the websites I build through regular maintenance.</p>
         </div>
       </div>
         <div className='sep'> 
