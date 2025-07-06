@@ -47,12 +47,20 @@
     border: none;
     background: none;
     border-bottom: 4px solid var(--FormText);
+    width: 25vw;
 }
 
-.contact-form .messageBox {
-    padding-bottom: 120px;
+.contact-form textarea {
+  width: 25vw;
+  background: none;
+  border: none;
+  font-size: 30px;
+  font-weight: bolder;
+  border-bottom: 4px solid var(--FormText);
+  resize: none;
+  color: var(--DarkBlue);
+  font-family: 'Baloo 2', cursive;
 }
-
 .contact-form .submit {
     width: 120px;
     border: none;
@@ -67,6 +75,13 @@
     border: none;
     border-bottom: 4px solid var(--DarkBlue);
     color: var(--DarkBlue);
+}
+
+.contact-form textarea:focus {
+    border: none;
+    border-bottom: 4px solid var(--DarkBlue);
+    color: var(--DarkBlue);
+    outline: none;
 }
 
 @media (max-width: 768px) {
@@ -86,6 +101,10 @@
   }
   .contact-form input {
     font-size: 20px;
+    width: 40vw;
+  }
+  .contact-form textarea {
+    width: 40vw;
   }
   .contact-form .submit {
     width: 90px;
@@ -110,6 +129,10 @@
   }
   .contact-form input {
     font-size: 16px;
+    width: 60vw;
+  }
+  .contact-form textarea {
+    width: 60vw;
   }
   .contact-form .submit {
     width: 70px;
