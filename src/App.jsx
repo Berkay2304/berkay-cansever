@@ -1,6 +1,6 @@
 // src/App.jsx
 import Navbar from './components/Navbar/Navbar';
-import "./components/Navbar/Navbar.css";
+import "./components/Navbar/navbar.css";
 import Intro from './components/Intro/Intro';
 import "./components/Intro/intro.css"
 import AboutMe from './components/AboutMe/AboutMe';
