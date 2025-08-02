@@ -1,5 +1,6 @@
 import React from 'react';
 import sample from "../../assets/images/sample.png";
+import sample2 from "../../assets/images/sample2.png";
 
 export default function Portfolio() {
   return (
@@ -11,10 +12,10 @@ export default function Portfolio() {
       </div>
       <div className='samples-container'>
         <div>
-          <a href="https://blog-app-eight-ashen.vercel.app/" target='_blank' style={{display: 'inline'}}><img src={sample} alt="Sample Web Site" /></a>
+          <a href="https://blog-app-eight-ashen.vercel.app/" target='_blank' style={{display: 'inline'}}><img src={sample} alt="Sample Web Site Blog App" /></a>
         </div>
         <div>
-          <a href="#"><img src={sample} alt="Sample Web Site" /></a>
+        <a href="https://bazaar-tau.vercel.app/" target='_blank' style={{display: 'inline'}}><img src={sample2} alt="Sample Web Site Online Shopping" /></a>
         </div>
         <div>
           <a href="#"><img src={sample} alt="Sample Web Site" /></a>
